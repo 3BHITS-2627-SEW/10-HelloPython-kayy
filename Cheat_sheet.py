@@ -24,3 +24,13 @@ print("Datentyp von einerVariable: ", datenTyp)
 eineVariable = 15
 datenTyp = type(eineVariable)
 print("Datentyp von einerVariable: ", datenTyp)
+
+# Formatierte Ausgabe
+# C: printf("Zahl lautet %i und ist Cool", eineVariable);
+einText = f"Zahl lautet {eineVariable} \nund ist Cool!"
+print(einText)
+
+# Eingabe von der Kommandozeile:
+# int i = 0;
+# printf("Zahl: \n");
+# scanf(%i);
