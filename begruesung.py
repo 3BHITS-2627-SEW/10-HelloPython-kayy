@@ -4,5 +4,5 @@ os.system("cls")
 
 name = input("Gib deinen Namen ein: ")
 
-Text = f"Hallo {name}!"
+Text = f"Hallo {name}."
 print(name)
